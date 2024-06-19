@@ -171,6 +171,7 @@ endif()
 set_property(GLOBAL PROPERTY EIGEN_CURRENT_SUBPROJECT "Official")
 add_custom_target(BuildOfficial)
 
+ei_add_test(allocator)
 ei_add_test(clz)
 ei_add_test(rand)
 ei_add_test(meta)
